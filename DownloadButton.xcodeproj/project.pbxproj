@@ -1,0 +1,413 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A3248D0E237AEFEF00551C43 /* NSLayoutConstraint+PKDownloadButton.h in Headers */ = {isa = PBXBuildFile; fileRef = A3248CF9237AEFEE00551C43 /* NSLayoutConstraint+PKDownloadButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A3248D0F237AEFEF00551C43 /* PKDownloadButton.h in Headers */ = {isa = PBXBuildFile; fileRef = A3248CFA237AEFEE00551C43 /* PKDownloadButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A3248D10237AEFEF00551C43 /* NSLayoutConstraint+PKDownloadButton.m in Sources */ = {isa = PBXBuildFile; fileRef = A3248CFB237AEFEE00551C43 /* NSLayoutConstraint+PKDownloadButton.m */; };
+		A3248D11237AEFEF00551C43 /* UIColor+PKDownloadButton.h in Headers */ = {isa = PBXBuildFile; fileRef = A3248CFC237AEFEE00551C43 /* UIColor+PKDownloadButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A3248D12237AEFEF00551C43 /* PKStopDownloadButton.m in Sources */ = {isa = PBXBuildFile; fileRef = A3248CFD237AEFEE00551C43 /* PKStopDownloadButton.m */; };
+		A3248D13237AEFEF00551C43 /* UIButton+PKDownloadButton.m in Sources */ = {isa = PBXBuildFile; fileRef = A3248CFE237AEFEE00551C43 /* UIButton+PKDownloadButton.m */; };
+		A3248D14237AEFEF00551C43 /* UIButton+PKDownloadButton.h in Headers */ = {isa = PBXBuildFile; fileRef = A3248CFF237AEFEE00551C43 /* UIButton+PKDownloadButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A3248D15237AEFEF00551C43 /* UIImage+PKDownloadButton.h in Headers */ = {isa = PBXBuildFile; fileRef = A3248D00237AEFEE00551C43 /* UIImage+PKDownloadButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A3248D16237AEFEF00551C43 /* PKStopDownloadButton.h in Headers */ = {isa = PBXBuildFile; fileRef = A3248D01237AEFEE00551C43 /* PKStopDownloadButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A3248D17237AEFEF00551C43 /* PKCircleView.m in Sources */ = {isa = PBXBuildFile; fileRef = A3248D02237AEFEE00551C43 /* PKCircleView.m */; };
+		A3248D18237AEFEF00551C43 /* PKPendingView.h in Headers */ = {isa = PBXBuildFile; fileRef = A3248D03237AEFEE00551C43 /* PKPendingView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A3248D19237AEFEF00551C43 /* UIImage+PKDownloadButton.m in Sources */ = {isa = PBXBuildFile; fileRef = A3248D04237AEFEE00551C43 /* UIImage+PKDownloadButton.m */; };
+		A3248D1A237AEFEF00551C43 /* PKCircleView.h in Headers */ = {isa = PBXBuildFile; fileRef = A3248D05237AEFEE00551C43 /* PKCircleView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A3248D1B237AEFEF00551C43 /* PKCircleProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = A3248D06237AEFEE00551C43 /* PKCircleProgressView.m */; };
+		A3248D1C237AEFEF00551C43 /* CALayer+PKDownloadButtonAnimations.m in Sources */ = {isa = PBXBuildFile; fileRef = A3248D07237AEFEF00551C43 /* CALayer+PKDownloadButtonAnimations.m */; };
+		A3248D1D237AEFEF00551C43 /* PKCircleProgressView.h in Headers */ = {isa = PBXBuildFile; fileRef = A3248D08237AEFEF00551C43 /* PKCircleProgressView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A3248D1E237AEFEF00551C43 /* UIColor+PKDownloadButton.m in Sources */ = {isa = PBXBuildFile; fileRef = A3248D09237AEFEF00551C43 /* UIColor+PKDownloadButton.m */; };
+		A3248D1F237AEFEF00551C43 /* PKMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = A3248D0A237AEFEF00551C43 /* PKMacros.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A3248D20237AEFEF00551C43 /* PKPendingView.m in Sources */ = {isa = PBXBuildFile; fileRef = A3248D0B237AEFEF00551C43 /* PKPendingView.m */; };
+		A3248D21237AEFEF00551C43 /* PKDownloadButton.m in Sources */ = {isa = PBXBuildFile; fileRef = A3248D0C237AEFEF00551C43 /* PKDownloadButton.m */; };
+		A3248D22237AEFEF00551C43 /* CALayer+PKDownloadButtonAnimations.h in Headers */ = {isa = PBXBuildFile; fileRef = A3248D0D237AEFEF00551C43 /* CALayer+PKDownloadButtonAnimations.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A3248C94237AEC1600551C43 /* DownloadButton.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DownloadButton.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3248CCF237AEDF800551C43 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A3248CF9237AEFEE00551C43 /* NSLayoutConstraint+PKDownloadButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSLayoutConstraint+PKDownloadButton.h"; sourceTree = "<group>"; };
+		A3248CFA237AEFEE00551C43 /* PKDownloadButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PKDownloadButton.h; sourceTree = "<group>"; };
+		A3248CFB237AEFEE00551C43 /* NSLayoutConstraint+PKDownloadButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSLayoutConstraint+PKDownloadButton.m"; sourceTree = "<group>"; };
+		A3248CFC237AEFEE00551C43 /* UIColor+PKDownloadButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+PKDownloadButton.h"; sourceTree = "<group>"; };
+		A3248CFD237AEFEE00551C43 /* PKStopDownloadButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PKStopDownloadButton.m; sourceTree = "<group>"; };
+		A3248CFE237AEFEE00551C43 /* UIButton+PKDownloadButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+PKDownloadButton.m"; sourceTree = "<group>"; };
+		A3248CFF237AEFEE00551C43 /* UIButton+PKDownloadButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+PKDownloadButton.h"; sourceTree = "<group>"; };
+		A3248D00237AEFEE00551C43 /* UIImage+PKDownloadButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+PKDownloadButton.h"; sourceTree = "<group>"; };
+		A3248D01237AEFEE00551C43 /* PKStopDownloadButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PKStopDownloadButton.h; sourceTree = "<group>"; };
+		A3248D02237AEFEE00551C43 /* PKCircleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PKCircleView.m; sourceTree = "<group>"; };
+		A3248D03237AEFEE00551C43 /* PKPendingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PKPendingView.h; sourceTree = "<group>"; };
+		A3248D04237AEFEE00551C43 /* UIImage+PKDownloadButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+PKDownloadButton.m"; sourceTree = "<group>"; };
+		A3248D05237AEFEE00551C43 /* PKCircleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PKCircleView.h; sourceTree = "<group>"; };
+		A3248D06237AEFEE00551C43 /* PKCircleProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PKCircleProgressView.m; sourceTree = "<group>"; };
+		A3248D07237AEFEF00551C43 /* CALayer+PKDownloadButtonAnimations.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CALayer+PKDownloadButtonAnimations.m"; sourceTree = "<group>"; };
+		A3248D08237AEFEF00551C43 /* PKCircleProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PKCircleProgressView.h; sourceTree = "<group>"; };
+		A3248D09237AEFEF00551C43 /* UIColor+PKDownloadButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+PKDownloadButton.m"; sourceTree = "<group>"; };
+		A3248D0A237AEFEF00551C43 /* PKMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PKMacros.h; sourceTree = "<group>"; };
+		A3248D0B237AEFEF00551C43 /* PKPendingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PKPendingView.m; sourceTree = "<group>"; };
+		A3248D0C237AEFEF00551C43 /* PKDownloadButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PKDownloadButton.m; sourceTree = "<group>"; };
+		A3248D0D237AEFEF00551C43 /* CALayer+PKDownloadButtonAnimations.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CALayer+PKDownloadButtonAnimations.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A3248C91237AEC1600551C43 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A3248C8A237AEC1600551C43 = {
+			isa = PBXGroup;
+			children = (
+				A3248C9F237AEC7A00551C43 /* DownloadButton-Framework */,
+				A3248C95237AEC1600551C43 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A3248C95237AEC1600551C43 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A3248C94237AEC1600551C43 /* DownloadButton.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A3248C9F237AEC7A00551C43 /* DownloadButton-Framework */ = {
+			isa = PBXGroup;
+			children = (
+				A3248CD0237AEE0600551C43 /* Classes */,
+				A3248CCF237AEDF800551C43 /* Info.plist */,
+			);
+			path = "DownloadButton-Framework";
+			sourceTree = "<group>";
+		};
+		A3248CD0237AEE0600551C43 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				A3248D0D237AEFEF00551C43 /* CALayer+PKDownloadButtonAnimations.h */,
+				A3248D07237AEFEF00551C43 /* CALayer+PKDownloadButtonAnimations.m */,
+				A3248CF9237AEFEE00551C43 /* NSLayoutConstraint+PKDownloadButton.h */,
+				A3248CFB237AEFEE00551C43 /* NSLayoutConstraint+PKDownloadButton.m */,
+				A3248D08237AEFEF00551C43 /* PKCircleProgressView.h */,
+				A3248D06237AEFEE00551C43 /* PKCircleProgressView.m */,
+				A3248D05237AEFEE00551C43 /* PKCircleView.h */,
+				A3248D02237AEFEE00551C43 /* PKCircleView.m */,
+				A3248CFA237AEFEE00551C43 /* PKDownloadButton.h */,
+				A3248D0C237AEFEF00551C43 /* PKDownloadButton.m */,
+				A3248D0A237AEFEF00551C43 /* PKMacros.h */,
+				A3248D03237AEFEE00551C43 /* PKPendingView.h */,
+				A3248D0B237AEFEF00551C43 /* PKPendingView.m */,
+				A3248D01237AEFEE00551C43 /* PKStopDownloadButton.h */,
+				A3248CFD237AEFEE00551C43 /* PKStopDownloadButton.m */,
+				A3248CFF237AEFEE00551C43 /* UIButton+PKDownloadButton.h */,
+				A3248CFE237AEFEE00551C43 /* UIButton+PKDownloadButton.m */,
+				A3248CFC237AEFEE00551C43 /* UIColor+PKDownloadButton.h */,
+				A3248D09237AEFEF00551C43 /* UIColor+PKDownloadButton.m */,
+				A3248D00237AEFEE00551C43 /* UIImage+PKDownloadButton.h */,
+				A3248D04237AEFEE00551C43 /* UIImage+PKDownloadButton.m */,
+			);
+			name = Classes;
+			path = Pod/Classes;
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		A3248C8F237AEC1600551C43 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3248D0E237AEFEF00551C43 /* NSLayoutConstraint+PKDownloadButton.h in Headers */,
+				A3248D14237AEFEF00551C43 /* UIButton+PKDownloadButton.h in Headers */,
+				A3248D11237AEFEF00551C43 /* UIColor+PKDownloadButton.h in Headers */,
+				A3248D1D237AEFEF00551C43 /* PKCircleProgressView.h in Headers */,
+				A3248D18237AEFEF00551C43 /* PKPendingView.h in Headers */,
+				A3248D1A237AEFEF00551C43 /* PKCircleView.h in Headers */,
+				A3248D1F237AEFEF00551C43 /* PKMacros.h in Headers */,
+				A3248D16237AEFEF00551C43 /* PKStopDownloadButton.h in Headers */,
+				A3248D15237AEFEF00551C43 /* UIImage+PKDownloadButton.h in Headers */,
+				A3248D0F237AEFEF00551C43 /* PKDownloadButton.h in Headers */,
+				A3248D22237AEFEF00551C43 /* CALayer+PKDownloadButtonAnimations.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		A3248C93237AEC1600551C43 /* DownloadButton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A3248C9C237AEC1600551C43 /* Build configuration list for PBXNativeTarget "DownloadButton" */;
+			buildPhases = (
+				A3248C8F237AEC1600551C43 /* Headers */,
+				A3248C90237AEC1600551C43 /* Sources */,
+				A3248C91237AEC1600551C43 /* Frameworks */,
+				A3248C92237AEC1600551C43 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DownloadButton;
+			productName = DownloadButton;
+			productReference = A3248C94237AEC1600551C43 /* DownloadButton.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A3248C8B237AEC1600551C43 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1120;
+				ORGANIZATIONNAME = "Eugene Klishevich";
+				TargetAttributes = {
+					A3248C93237AEC1600551C43 = {
+						CreatedOnToolsVersion = 11.2.1;
+					};
+				};
+			};
+			buildConfigurationList = A3248C8E237AEC1600551C43 /* Build configuration list for PBXProject "DownloadButton" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A3248C8A237AEC1600551C43;
+			productRefGroup = A3248C95237AEC1600551C43 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A3248C93237AEC1600551C43 /* DownloadButton */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A3248C92237AEC1600551C43 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A3248C90237AEC1600551C43 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3248D12237AEFEF00551C43 /* PKStopDownloadButton.m in Sources */,
+				A3248D17237AEFEF00551C43 /* PKCircleView.m in Sources */,
+				A3248D21237AEFEF00551C43 /* PKDownloadButton.m in Sources */,
+				A3248D10237AEFEF00551C43 /* NSLayoutConstraint+PKDownloadButton.m in Sources */,
+				A3248D1C237AEFEF00551C43 /* CALayer+PKDownloadButtonAnimations.m in Sources */,
+				A3248D1E237AEFEF00551C43 /* UIColor+PKDownloadButton.m in Sources */,
+				A3248D20237AEFEF00551C43 /* PKPendingView.m in Sources */,
+				A3248D19237AEFEF00551C43 /* UIImage+PKDownloadButton.m in Sources */,
+				A3248D1B237AEFEF00551C43 /* PKCircleProgressView.m in Sources */,
+				A3248D13237AEFEF00551C43 /* UIButton+PKDownloadButton.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		A3248C9A237AEC1600551C43 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A3248C9B237AEC1600551C43 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A3248C9D237AEC1600551C43 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "DownloadButton-Framework/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.eklishevich.DownloadButton;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A3248C9E237AEC1600551C43 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "DownloadButton-Framework/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.eklishevich.DownloadButton;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A3248C8E237AEC1600551C43 /* Build configuration list for PBXProject "DownloadButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3248C9A237AEC1600551C43 /* Debug */,
+				A3248C9B237AEC1600551C43 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A3248C9C237AEC1600551C43 /* Build configuration list for PBXNativeTarget "DownloadButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3248C9D237AEC1600551C43 /* Debug */,
+				A3248C9E237AEC1600551C43 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A3248C8B237AEC1600551C43 /* Project object */;
+}
